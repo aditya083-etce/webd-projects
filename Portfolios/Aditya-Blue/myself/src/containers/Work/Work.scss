@@ -1,0 +1,27 @@
+.work{
+    padding: 50px 100px;
+    display: flex;flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    .w-header{
+        width: 65%;
+        
+        .w-title{
+            font-size: 50px;
+            font-weight: 500;
+        }
+        
+        .w-description{
+            margin: 20px 0px;
+            font-size: 20px;
+        }
+    }
+    
+    .w-list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
